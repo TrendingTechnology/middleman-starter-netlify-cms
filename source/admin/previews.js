@@ -7,7 +7,6 @@ const BlogPreview = ({ entry, widgetFor }) => {
         <div className="row">
           <div className="title">
             <span className="date">{date}</span>
-            <span className="tag">{tags}</span>
             <h1>{data.title}</h1>
           </div>
         </div>
